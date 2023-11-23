@@ -1,0 +1,14 @@
+apiVersion: demo.mega.crd/v1
+kind: Hello
+metadata:
+  name: hello-01
+spec:
+  name: jack
+
+---
+apiVersion: demo.mega.crd/v1
+kind: Hello
+metadata:
+  name: hello-02
+spec:
+  name: joe
