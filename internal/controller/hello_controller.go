@@ -40,6 +40,7 @@ type HelloReconciler struct {
 //+kubebuilder:rbac:groups=demo.mega.crd,resources=hellos,verbs=get;list;watch;create;update;patch;delete
 //+kubebuilder:rbac:groups=demo.mega.crd,resources=hellos/status,verbs=get;update;patch
 //+kubebuilder:rbac:groups=demo.mega.crd,resources=hellos/finalizers,verbs=update
+//+kubebuilder:rbac:groups=,resources=nodes/services/endpoints/pods,verbs=get;list;watch
 
 // Reconcile is part of the main kubernetes reconciliation loop which aims to
 // move the current state of the cluster closer to the desired state.
